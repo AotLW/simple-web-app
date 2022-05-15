@@ -131,3 +131,12 @@ dist
 
 #mochawesome
 mochawesome-report
+
+# Terraform
+.terraform*
+*.tfstate
+*.tfvars
+
+# Keys
+*.key
+*.pem
