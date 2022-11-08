@@ -102,10 +102,7 @@ resource "aws_iam_policy" "s3-access" {
     "Statement": [
         {
             "Effect": "Allow",
-            "Action": [
-                "s3:*",
-                "s3-object-lambda:*"
-            ],
+            "Action": "s3:*",
             "Resource": "*"
         }
     ]
