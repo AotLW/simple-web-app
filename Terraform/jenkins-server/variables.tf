@@ -2,7 +2,7 @@ variable "ami-id" {
 type = string
 }
 
-variable "ami-instance-profile" {
+variable "iam-instance-profile" {
   default = ""
   type    = string
 }
